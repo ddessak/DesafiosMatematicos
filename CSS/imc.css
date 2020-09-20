@@ -1,0 +1,61 @@
+.calculadora{
+    margin-left: 150px;
+}
+form input{
+    width: 30%;
+    height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.peso{
+    margin-left: 10px;
+}
+p{
+    color: #001336;
+    font-size: 40px;
+}
+h1{
+    color: #001336;
+    margin-left: 220px;
+    margin-top: 200px;
+}
+
+form input[type=reset]{
+    width:150px;
+    border-radius: 4px;
+    background-color: #001336;
+    font-size: 20px;
+    color: #cad0db;
+    cursor: pointer;
+
+}
+form input[type=button]{
+    width:150px;
+    border-radius: 4px;
+    background-color: #001336;
+    color: #cad0db;
+    font-size: 20px;
+    margin-left: 210px;
+    cursor: pointer;
+    
+}
+form input[type=button]:hover{
+    background-color: chartreuse;
+    color: white;
+}
+form input[type=reset]:hover{
+    background-color: crimson;
+    color: white;
+}
+.img img{
+    width: 800px;
+    margin-top: -380px;
+    margin-left: 700px;
+}
+form input:hover{
+    background-color: #100533;
+    color:white;
+}

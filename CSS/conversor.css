@@ -1,0 +1,52 @@
+input[type=number]::-webkit-inner-spin-button { 
+            -webkit-appearance: none;
+        }
+fieldset{
+    font-size: 40px;
+    width: 40%;
+    text-align: center;
+    border: 8px solid #020730;
+    margin-top: 30px;
+    margin-left: 340px;
+    background-color: #ffffff;
+    padding: 10px;
+               
+        }
+legend{
+    border: 2px solid #020730;
+    padding: 5px;
+    color:white;
+    background-color: #1e3182;
+        }
+
+fieldset input{
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #d6d0d2;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 2s;
+            
+        }
+fieldset input:hover{
+    background-color: #020730;
+        color:white;
+        }
+.img img{
+    width: 1000px;
+    margin-top: 20px;
+}
+fieldset input[type=reset]{
+     background-color: #020730;
+            width: 100px;
+     color:#ffffff;
+            font-size:15px;
+     float:right;
+      cursor: pointer;
+}
+fieldset input[type=reset]:hover{
+        background-color: #f00713;
+            
+}

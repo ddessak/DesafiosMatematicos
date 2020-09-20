@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora de IMC</title>
+        <link rel="stylesheet" href="../CSS/imc.css" type="">
+        <link rel="stylesheet" href="../CSS/menu.css" type="">
+        <script type="text/javascript" src="../JS/imc.js"></script>
+    </head>
+    
+    <body>
+        <div class="menu">
+            
+            <ul>
+                <li><a href="../index.html"> Inicio </a> </li>
+                <li><a href="calc.html">Calculadora Simples  </a></li>
+                <li><a href="imc.html"> Calculadora de IMC </a></li>
+                <li><a href="conversor.html"> Conversor de Temperatura </a> </li>
+                <li> <a href="bhaskara.html"> Formula de Bhaskara </a></li>
+            </ul>
+            
+        </div>
+
+        <div class="calculadora"> 
+
+            <form >
+
+                <h1>Calculadora de IMC</h1>
+
+                <p class="peso"><a>&nbsp Peso:  </a>
+                    <input type="text" id="pes" name="peso" placeholder="Digite Aqui"></p>
+                <p><a>Altura:</a>
+                    <input type="text" id="altur" name="altura" placeholder="Digite Aqui"></p>
+                
+                <input class="modelo" type="button" value="Calcular IMC" onclick="calcular_icm()">
+                <input class="modelo" type="reset" name="btLimpar"value="Limpar">
+
+                <div class="img"><img src="../Imagens/imc.png" alt=""></div>
+
+            </form>
+
+        
+
+    </body>
+</html>
+
